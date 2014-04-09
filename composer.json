@@ -1,0 +1,19 @@
+{
+    "name": "maartenballiauw/searchportal-plugin-google",
+    "description": "Plugin for Google search engine.",
+    "minimum-stability": "dev",
+    "license": "Apache-2",
+    "authors": [
+        {
+            "name": "Maarten Balliauw",
+            "email": "maarten.balliauw@jetbrains.com"
+        }
+    ],
+    "type": "searchportal-plugin",
+    "extra": {
+        "class": "SearchPortal\\Plugins\\GoogleSearchEnginePlugin"
+    },
+    "require": {
+        "maartenballiauw/searchportal-plugin-installers": "dev-master"
+    }
+}
